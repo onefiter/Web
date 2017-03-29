@@ -324,6 +324,25 @@ s, i, em {
     height: 465px;
     background-color: #C81623;
 }
+.dropdown .items {
+    height: 31px;
+    line-height: 31px;
+    border-left: 1px solid #B61D1D;
+    padding-left: 10px;
+    color: #fff;
+    font-size: 15px;
+    font-family:"微软雅黑";
+}
+.dropdown .items h3 {
+    float: left;
+}
+.dropdown .items span {
+    float: right;
+    margin-right: 15px;
+    font-family: "宋体";
+    font-weight: 600;
+
+}
 .navitems {
     width: 680px;
     height: 44px;
