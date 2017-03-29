@@ -32,7 +32,7 @@ s,i,em{font-style:normal;text-decoration:none;}
 
 
 /*公共类*/
-.w {  /*版心 提取 */
+.w {  /*版心 提取  */
     width: 1210px;margin:0 auto;
 }
 .fl {
@@ -87,6 +87,7 @@ s,i,em{font-style:normal;text-decoration:none;}
     float: left;
     padding: 0 10px;
 }
+/*竖线*/
 .fr .line {
     width: 1px;
     height: 12px;
@@ -105,6 +106,10 @@ s,i,em{font-style:normal;text-decoration:none;}
     left: 5px;
     top:5px;
 }
+.close-banner:hover {
+    background-position:bottom;
+}
+
 /*顶部end*/
 /*topbanner start*/
 .topbanner {
@@ -124,7 +129,6 @@ s,i,em{font-style:normal;text-decoration:none;}
 .tp{
     position: relative;
 }
-
 /*topbanner end*/
 
 .logo {
@@ -136,6 +140,7 @@ s,i,em{font-style:normal;text-decoration:none;}
     background: url(../images/logo.png) no-repeat 0 25px;
     position: relative;
 }
+
 .jd-a{
     display: block;
     width: 270px;
@@ -154,15 +159,75 @@ s,i,em{font-style:normal;text-decoration:none;}
 
 .search {
     width: 538px;
-    height: 75px;
-    background-color: purple;
+    height: 35px;
     float: left;
     padding-top: 25px;
 }
+
+.search input {
+    width: 450px;
+    height: 32px;
+    border:2px solid #B61D1D;
+    padding-left: 4px;
+    color: #666;
+    font: 14px/32px "microsoft yahei";
+    float: left;
+}
+
+.search button {
+    width: 80px;
+    height: 36px;
+    background-color: #B61D1D;
+    float: left;
+    font: 16px/36px "microsoft yahei";
+    color: #fff;
+    cursor: pointer; /* 鼠标变成小手*/
+}
+
 .car {
-    width: 139px;
-    height: 34px;
-    background-color: blue;
+    width: 96px;
+    padding-left: 43px;
     float: right;
+    margin: 25px 65px 0 0;
+    border: 1px solid #DFDFDF;
     margin:25px 65px 0 0 ;
+    line-height: 34px;
+    float: right;
+    position: relative;
+}
+
+.icon1 {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 16px;
+    height: 13px;
+    background: url(../images/sprite.png) no-repeat -1px -59px;
+}
+.icon2 {
+    font: 400 13px/13px simsun;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.icon3 {
+    position: absolute;
+    width: 16px;
+    height: 14px;
+    background-color: #C81623;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #fff;
+    top: -4px;
+    border-radius: 7px 7px 7px 0;
+}
+.hotwords {
+    width: 500px;
+    padding: 7px 0;
+    float: left;
+}
+
+.hotwords a {
+    margin-right: 6px;
 }
