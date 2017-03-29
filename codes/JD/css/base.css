@@ -246,9 +246,11 @@ s,i,em{font-style:normal;text-decoration:none;}
     z-index: 10;
     overflow: visible;
 }
+
 .dropdown .dt {
     height: 44px;
 }
+
 .dropdown .dt a {
     display: block;
     height: 44px;
@@ -257,6 +259,7 @@ s,i,em{font-style:normal;text-decoration:none;}
     color: #fff;
     padding-left: 10px;
 }
+
 .dropdown .dd {
     height: 465px;
     background-color: #C81623;
@@ -269,9 +272,11 @@ s,i,em{font-style:normal;text-decoration:none;}
 .navitems li {
     float: left;
 }
+
 .navitems li.new {
     background: url(../images/new.jpg) no-repeat right top;
 }
+
 .navitems li a {
     display: block;
     color: #333;
@@ -281,15 +286,10 @@ s,i,em{font-style:normal;text-decoration:none;}
 .navitems li a:hover {
     color: #B1191A;
 }
+
 .bike {
     width: 140px;
     height: 44px;
     background:url(../images/bike.jpg) no-repeat;
     float: right;
 }
-.bike a {
-    display: block;
-    height: 44px;
-}
-
-
