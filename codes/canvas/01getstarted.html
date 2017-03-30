@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>get started</title>
+    <style type="text/css">
+        #demo{
+            /*width: 1200px;*/
+            /*height: 1200px;*/
+        }
+    </style>
+</head>
+<body>
+    <canvas id="demo" width="600" height="600">
+        ie9 以上才支持 canvas
+        你的浏览器不支持canvas，请升级浏览器
+        <!-- flash -->
+    </canvas>
+
+    <script type="text/javascript">
+        var canvas = document.getElementById('demo');
+        canvas.style.border = '1px solid red';
+        canvas.width = 600;
+        canvas.height = 600;
+
+        var ctx = canvas.getContext('2d');
+
+        ctx.moveTo(100,100);
+        ctx.lineTo(200,100);
+        ctx.lineTo(100,200);
+        ctx.closePath();
+
+        ctx.lineWidth = 4;
+
+        ctx.strokeStyle = 'red';
+        ctx.stroke();
+        ctx.fillStyle = 'green';
+        ctx.fill();
+    </script>
+</body>
+</html>
